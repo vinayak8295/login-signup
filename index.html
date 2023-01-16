@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Login Form</title>
+</head>
+  <body>
+    <div class="login-form">
+      <form  class = 'check'>
+        <h1>Login</h1>
+        <div class="content">
+          <div class="input-field">
+            <input type="email" placeholder="Email" id="email-send" name = "email_id" required>
+            <br>  
+            <input type="password" placeholder="Password" id="password-send" name = "password" required>
+         
+          <a href="forgot.html" class="link">Forgot Your Password?</a>
+        </div>
+        <div class="action">
+          <button onclick="reset(); window.location.href = 'signup.html';">Register</button>
+          <button>Sign in</button>
+        </div>
+      </form>
+    </div>
+   
+    <script  src="dist/bundle.js"></script>
+  </body>
+</html>
